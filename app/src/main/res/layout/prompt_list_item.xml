@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:minHeight="@dimen/prompt_item_min_height"
+    android:orientation="vertical"
+    android:background="@null"
+    >
+
+    <TextView
+        style="@style/PromptText"
+        android:id="@+id/title"
+        android:textColor="@color/sr_item_hint_color"
+        android:textSize="@dimen/sr_item_title_text_size"
+        android:visibility="gone" />
+
+    <TextView
+        style="@style/PromptText"
+        android:id="@+id/grammar_hint"
+        android:textColor="@color/sr_item_hint_color"
+        android:textSize="@dimen/prompt_item_hint_text_size" />
+
+</LinearLayout>

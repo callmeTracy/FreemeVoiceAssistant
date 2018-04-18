@@ -1,0 +1,216 @@
+{
+    "version": "0.1",
+    "slots": {
+        "name": [
+            "张三",
+            "李四",
+            "王五",
+            ".+"
+        ],
+        "appname": [
+            "微信",
+            "百度地图",
+            "短信",
+            "计算器",
+            ".+"
+        ],
+        "song": [
+            ".+"
+        ],
+        "singer": [
+            ".+"
+        ],
+        "msgbody": [
+            ".+"
+        ]
+    },
+    "rules": {
+        "telephone.call": [
+            {
+                "origin": "打电话给<name>",
+                "pattern": "^打电话给(张三|李四|王五|.+)$",
+                "groups": [
+                    "name"
+                ]
+            },
+            {
+                "origin": "打给<name>",
+                "pattern": "^打给(张三|李四|王五|.+)$",
+                "groups": [
+                    "name"
+                ]
+            },
+            {
+                "origin": "呼叫<name>",
+                "pattern": "^呼叫(张三|李四|王五|.+)$",
+                "groups": [
+                    "name"
+                ]
+            },
+            {
+                "origin": "给<name>打电话",
+                "pattern": "^给(张三|李四|王五|.+)打电话$",
+                "groups": [
+                    "name"
+                ]
+            }
+        ],
+        "contacts.view": [
+            {
+                "origin": "查看<name>的电话号码",
+                "pattern": "^查看(张三|李四|王五|.+)的电话号码$",
+                "groups": [
+                    "name"
+                ]
+            },
+            {
+                "origin": "查看<name>的号码",
+                "pattern": "^查看(张三|李四|王五|.+)的号码$",
+                "groups": [
+                    "name"
+                ]
+            },
+            {
+                "origin": "查看<name>",
+                "pattern": "^查看(张三|李四|王五|.+)$",
+                "groups": [
+                    "name"
+                ]
+            },
+            {
+                "origin": "查找<name>的号码",
+                "pattern": "^查找(张三|李四|王五|.+)的号码$",
+                "groups": [
+                    "name"
+                ]
+            },
+            {
+                "origin": "查找<name>",
+                "pattern": "^查找(张三|李四|王五|.+)$",
+                "groups": [
+                    "name"
+                ]
+            }
+        ],
+        "message.send": [
+            {
+                "origin": "发短信给<name>",
+                "pattern": "^发短信给(张三|李四|王五|.+)$",
+                "groups": [
+                    "name"
+                ]
+            },
+            {
+                "origin": "给<name>发短信",
+                "pattern": "^给(张三|李四|王五|.+)发短信$",
+                "groups": [
+                    "name"
+                ]
+            }
+        ],
+        "setting.set": [
+            {
+                "origin": "切换静音模式",
+                "pattern": "^切换静音模式$",
+                "groups": []
+            },
+            {
+                "origin": "切换振动模式",
+                "pattern": "^切换振动模式$",
+                "groups": []
+            },
+            {
+                "origin": "切换正常模式",
+                "pattern": "^切换正常模式$",
+                "groups": []
+            },
+            {
+                "origin": "打开wifi",
+                "pattern": "^打开wifi$",
+                "groups": []
+            },
+            {
+                "origin": "关闭wifi",
+                "pattern": "^关闭wifi$",
+                "groups": []
+            },
+            {
+                "origin": "打开蓝牙",
+                "pattern": "^打开蓝牙$",
+                "groups": []
+            },
+            {
+                "origin": "关闭蓝牙",
+                "pattern": "^关闭蓝牙$",
+                "groups": []
+            }
+        ],
+        "app.open": [
+            {
+                "origin": "打开<appname>",
+                "pattern": "^打开(微信|百度地图|短信|计算器|.+)$",
+                "groups": [
+                    "appname"
+                ]
+            },
+            {
+                "origin": "启动<appname>",
+                "pattern": "^启动(微信|百度地图|短信|计算器|.+)$",
+                "groups": [
+                    "appname"
+                ]
+            },
+            {
+                "origin": "<appname>",
+                "pattern": "^(微信|百度地图|短信|计算器|.+)$",
+                "groups": [
+                    "appname"
+                ]
+            }
+        ],
+        "music.play": [
+            {
+                "origin": "播放音乐",
+                "pattern": "^播放音乐$",
+                "groups": []
+            },
+            {
+                "origin": "播放歌曲",
+                "pattern": "^播放歌曲$",
+                "groups": []
+            },
+            {
+                "origin": "播放<singer>的歌曲",
+                "pattern": "^播放(.+)的歌曲$",
+                "groups": [
+                    "singer"
+                ]
+            },
+            {
+                "origin": "播放<singer>的<song>",
+                "pattern": "^播放(.+)的(.+)$",
+                "groups": [
+                    "singer",
+                    "song"
+                ]
+            },
+            {
+                "origin": "播放<song>",
+                "pattern": "^播放(.+)$",
+                "groups": [
+                    "song"
+                ]
+            },
+            {
+                "origin": "播放<singer>的歌曲",
+                "pattern": "^播放(.+)的歌曲$",
+                "groups": [
+                    "singer"
+                ]
+            }
+        ]
+    },
+    "grammar": "<name> = 张三| \n李四| \n王五;\n<appname> = 微信| \n百度地图| \n短信| \n计算器;\n<song> = 词条默认值;\n<singer> = 词条默认值;\n<msgbody> = 词条默认值;\n<auto_create_node> = 切换静音模式 | \n切换振动模式 | \n切换正常模式 | \n打开wifi | \n关闭wifi | \n打开蓝牙 | \n关闭蓝牙 | \n播放音乐 | \n播放歌曲;\n<_wakeup> = 唤醒词占位符;\n\n\n_SCENE_ID_ 0\n\n( <auto_create_node> )\n\n( <_wakeup><auto_create_node> )\n\n( 打电话给<name> )\n( <_wakeup>打电话给<name> )\n( 打给<name> )\n( <_wakeup>打给<name> )\n( 呼叫<name> )\n( <_wakeup>呼叫<name> )\n( 给<name>打电话 )\n( <_wakeup>给<name>打电话 )\n( 查看<name>的电话号码 )\n( <_wakeup>查看<name>的电话号码 )\n( 查看<name>的号码 )\n( <_wakeup>查看<name>的号码 )\n( 查看<name> )\n( <_wakeup>查看<name> )\n( 查找<name>的号码 )\n( <_wakeup>查找<name>的号码 )\n( 查找<name> )\n( <_wakeup>查找<name> )\n( 发短信给<name> )\n( <_wakeup>发短信给<name> )\n( 给<name>发短信 )\n( <_wakeup>给<name>发短信 )\n( 打开<appname> )\n( <_wakeup>打开<appname> )\n( 启动<appname> )\n( <_wakeup>启动<appname> )\n( <appname> )\n( <_wakeup><appname> )\n( 播放<singer>的歌曲 )\n( <_wakeup>播放<singer>的歌曲 )\n( 播放<singer>的<song> )\n( <_wakeup>播放<singer>的<song> )\n( 播放<song> )\n( <_wakeup>播放<song> )\n( 播放<singer>的歌曲 )\n( <_wakeup>播放<singer>的歌曲 )\n",
+    "origin_slots": "name = 张三, 李四, 王五, *\nappname = 微信, 百度地图, 短信, 计算器, *\nsong = *\nsinger= *\nmsgbody    = *\n\n    ",
+    "origin_rules": "telephone.call     = 打电话给<name>, 打给<name>, 呼叫<name>, 给<name>打电话\n\ncontacts.view     = 查看<name>的电话号码, 查看<name>的号码, 查看<name>, 查找<name>的号码, 查找<name>\n\nmessage.send    = 发短信给<name>, 给<name>发短信\n\nsetting.set = 切换静音模式, 切换振动模式, 切换正常模式, 打开wifi, 关闭wifi, 打开蓝牙, 关闭蓝牙\n\napp.open            = 打开<appname>, 启动<appname>, <appname>\n\nmusic.play = 播放音乐, 播放歌曲, 播放<singer>的歌曲, 播放<singer>的<song>, 播放<song>, 播放<singer>的歌曲"
+}

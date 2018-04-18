@@ -1,0 +1,21 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/menuguide"
+    >
+
+    <TextView
+        android:id="@+id/known_tv"
+        android:layout_width="@dimen/menuguidebutton_margin_width"
+        android:layout_height="wrap_content"
+        android:background="@drawable/guidebuttonselector"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:textColor="@drawable/menuguide_text_color"
+        android:gravity="center"        
+        android:text="@string/ikonwn"
+        android:textSize="@dimen/sr_item_title_text_size"
+        android:clickable="true"
+        android:layout_marginTop="@dimen/menuguidebutton_margin_top"/>
+
+</RelativeLayout>

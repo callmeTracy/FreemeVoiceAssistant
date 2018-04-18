@@ -1,0 +1,330 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+   <!-- title and hint  --> 
+    <string name="app_name">語音助手</string>
+    <string name="app_hello">我是小翼，快來和我互動吧</string>
+    <string name="sr_contact_title">電話、短信、聯繫人</string>
+    <string name="sr_contact_hint">\"打電話給小明，發短信给小明\"</string>
+    <string name="sr_music_title">音樂</string>
+    <string name="sr_music_hint">\"播放李健的歌曲\"</string>
+    <string name="sr_alarm_title">鬧鐘</string>
+    <string name="sr_alarm_hint">\"新建明天早上8點的鬧鐘\"</string>
+    <string name="sr_weather_title">天氣</string>
+    <string name="sr_weather_hint">\"今天天氣怎麼樣\"</string>
+    <string name="sr_app_title">應用</string>
+    <string name="sr_app_hint">\"下載微信，打開QQ\"</string>
+    <string name="sr_settings_title">系統設置</string>
+    <string name="sr_settings_hint">\"打開/關閉WIFI/藍牙"</string>
+    <string name="sr_date_title">日期、時間</string>
+    <string name="sr_date_hint">\"現在幾點，今天幾號，明天星期幾\"</string>
+    <string name="sr_translate_title">翻譯</string>
+    <string name="sr_translate_hint">\"你好用英語怎麼說\"</string>
+    <string name="sr_chat_title">知識</string>
+    <string name="sr_chat_hint">\"林志玲的身高\"</string>
+    <string name="sr_map_title">地圖導航</string>
+    <string name="sr_map_hint">\"導航到上海交通大學\"</string>    
+    <string name="sr_search_title">搜索</string>
+    <string name="sr_search_hint">\"搜索我是歌手\"</string>   
+    <string name="sr_joke_title">笑話</string>
+    <string name="sr_joke_hint">\"給我講個笑話吧\"</string>   
+     <!-- grammar  --> 
+    <string name="prompt_contact_grammar1">打電話給小明</string>
+    <string name="prompt_contact_grammar2">給小明打電話</string>
+    <string name="prompt_contact_grammar3">發短信給小明</string>
+    <string name="prompt_contact_grammar4">給小明發短信</string>
+    <string name="prompt_contact_grammar5">查看小明的號碼</string>
+
+    <string name="prompt_music_grammar1">播放音樂</string>
+    <string name="prompt_music_grammar2">播放李健的歌曲</string>
+    <string name="prompt_music_grammar3">播放一生有你</string>
+    <string name="prompt_music_grammar4">播放李健的一生有你</string>
+
+    <string name="prompt_alarm_grammar1">今天下午6點提醒我開會</string>
+    <string name="prompt_alarm_grammar2">新建明天上午7點的鬧鐘</string>
+    <string name="prompt_alarm_grammar3">設置後天早上8點的鬧鐘</string>
+
+    <string name="prompt_weather_grammar1">今天天氣怎麼樣</string>
+    <string name="prompt_weather_grammar2">今天溫度</string>
+    <string name="prompt_weather_grammar3">明天天氣</string>
+    <string name="prompt_weather_grammar4">北京的天氣</string>
+
+    <string name="prompt_appstart_grammar1">打開QQ</string>
+    <string name="prompt_appstart_grammar2">下載蘑菇街</string>
+    <string name="prompt_appstart_grammar3">搜索唯品會</string>
+    <string name="prompt_appstart_grammar4">手機淘寶</string>
+
+    <string name="prompt_settings_grammar1">切換靜音模式</string>
+    <string name="prompt_settings_grammar2">切換正常模式</string>
+    <string name="prompt_settings_grammar3">切換振動模式</string>
+    <string name="prompt_settings_grammar4">打開/關閉wifi</string>
+    <string name="prompt_settings_grammar5">打開/關閉藍牙</string>
+
+    <string name="prompt_date_grammar1">現在幾點</string>
+    <string name="prompt_date_grammar2">今天幾號</string>
+    <string name="prompt_date_grammar3">今天的農曆</string>
+    <string name="prompt_date_grammar4">白羊座是多少號</string>
+    <string name="prompt_date_grammar5">1月1日是什麽星座</string>
+    <string name="prompt_date_grammar6">2008年出生屬什麽</string>
+    <string name="prompt_date_grammar7">距離春節還有多少天</string>
+    <string name="prompt_date_grammar8">農曆五月初五是多少號</string>      
+    
+    <string name="prompt_translate_grammar1">你好用英語（日語/韓語/法語/俄語）怎麼說</string> 
+    <string name="prompt_translate_grammar2">你好翻譯成英語怎麼說</string>
+    <string name="prompt_translate_grammar3">翻譯你好（默認英語）</string>
+    
+    <string name="prompt_chat_grammar1">成龍</string>
+    <string name="prompt_chat_grammar2">林志玲的身高</string>
+    <string name="prompt_chat_grammar3">謝娜的體重</string>
+    <string name="prompt_chat_grammar4">劉德華的出生日期</string>
+    <string name="prompt_chat_grammar5">林志穎的妻子</string>
+    <string name="prompt_map_grammar1">導航到上海交通大學</string>
+    <string name="prompt_map_grammar2">我想去陸家嘴怎麼走</string>
+    <string name="prompt_map_grammar3">上海國金中心商業廣場在哪裡</string>
+    <string name="prompt_search_grammar1">搜索我是歌手</string>
+    <string name="prompt_search_grammar2">搜索林志玲的身高</string>
+    <string name="prompt_search_grammar3">搜索劉德華的妻子</string>
+    <string name="prompt_search_grammar4">搜索成龍的體重</string>
+    <string name="prompt_search_grammar5">搜索世界最高峰</string>
+    <string name="prompt_joke_grammar1">給我講個笑話吧</string>
+    <string name="prompt_joke_grammar2">講個有趣的笑話</string>
+    <string name="prompt_item_head">您可以這樣對我說：</string>
+    
+    <!-- response -->
+    <string name="response_calling_cancel">已取消</string>
+    <string name="response_contact_not_exsit">對不起，找不到該聯繫人。</string>
+    <string name="response_send_message_success">短信已成功發送。</string>  
+    <string name="response_calling">正在為您呼叫%1$s</string>
+    <string name="response_send_message">您要發送什麽內容呢？</string>
+    <string name="response_select_contact">請選擇您需要的聯繫人。</string>
+    <string name="response_no_available_sim">對不起，沒有檢測到可用的Sim卡。</string>
+    <string name="response_setting_invalid">不可用。</string>    
+    <string name="response_no_app">對不起，手機上還沒有您要打開的應用</string>
+    <!-- setting -->
+    <string name="response_setting_ok">成功為您</string>
+    <string name="response_setting_on">打開</string>
+    <string name="response_setting_off">關閉</string>
+    <string name="response_setting_duplicate_on">已經打開著的。</string>
+    <string name="response_setting_duplicate_off">已經關閉著的。</string>
+    <string name="response_start_activity">正在為您打開</string>
+    <string name="response_norallow_start">語音助手已經打開著的</string>
+    <string name="response_more_message">請詳細說出您的想法 </string>
+    <string name="response_no_language">對不起，不支持您要翻譯的語言</string> 
+    <string name="response_speak_appname">請詳細說出您要打開的應用名</string> 
+    <string name="response_translate_result">翻譯結果如下</string>      
+    <string name="response_setting_unsupport">對不起，不支持您這種說法，您可以說wifi</string>  
+    <string name="error_onlyplay">只支持音樂的播放</string>  
+        
+    <!-- error -->
+    <string name="error_audio">請檢查是否有其他應用佔用音頻</string>    
+    <string name="error_speech_timeout">對不起，我沒聽清</string> 
+    <string name="error_client">我沒有聽清，請您再說一遍</string> 
+    <string name="error_insufficient_permissions">权限问题</string> 
+    <string name="error_network">請檢查網絡連接</string>
+    <string name="error_no_function">當前無網絡，只可執行有關電短聯等的操作，其他行為請聯網重試</string>  
+    <string name="error_no_match">對不起，我沒有聽懂您說的話</string> 
+    <string name="error_recognizer_busy">請耐心等待輸入的識別結果</string> 
+    <string name="error_server">服務端繁忙，請稍後再試</string> 
+    <string name="error_network_timeout">當前網絡不穩定，請稍後重試</string> 
+    <string name="error_no_match_network">當前無網絡，請聯網后重試</string>
+    
+        
+    <string name="cancel">取消</string>
+    <string name="send">發送</string>
+    <string name="send_msg">發送短信</string>
+    <string name="call">撥打電話</string>
+    <!-- hint -->
+    <string name="message_content_hint">點擊麥克風可輸入短信內容</string>
+    <string name="message_content_hint_no">請输入短信内容</string>
+    <string name="message_speech_dialog_title">正在傾聽……</string>
+    <string name="message_speech_dialog_say_over">說完了</string>
+    <!-- device -->
+    <string name="hint_device_wifi">WIFI</string>
+    <string name="hint_device_data">數據連接 </string>
+    <string name="hint_device_bluetooth">藍牙 </string>    
+    <string name="hint_device_gps">GPS</string>     
+    <string name="hint_device_ring_silent">靜音模式</string>
+    <string name="hint_device_ring_normal">正常模式</string> 
+    <string name="hint_device_ring_shack">振動模式</string>  
+    <!-- language -->
+    <string name="zh">中文</string>
+    <string name="en">英语</string>
+    <string name="yue">粤语</string>    
+    <string name="wyw">文言文</string>    
+    <string name="jp">日语</string>
+    <string name="kor">韩语</string>
+    <string name="fra">法语</string>    
+    <string name="th">泰语</string>  
+    <string name="ara">阿拉伯语</string>   
+    <string name="ru">俄语</string>    
+    <string name="pt">葡萄牙语</string>
+    <string name="de">德语</string>
+    <string name="it">意大利语</string>    
+    <string name="el">希腊语</string>   
+    <string name="nl">荷兰语</string>   
+    <string name="pl">波兰语</string>  
+    <string name="bul">保加利亚语</string>    
+    <string name="est">爱沙尼亚语</string>   
+    <string name="dan">丹麦语</string>   
+    <string name="fin">芬兰语</string> 
+    <string name="cs">捷克语</string>  
+    <string name="rom">罗马尼亚语</string>    
+    <string name="slo">斯洛文尼亚语</string>   
+    <string name="swe">瑞典语</string>   
+    <string name="hu">匈牙利语</string>
+    <string name="spa">西班牙语</string>
+    <string name="enw">英文</string>
+    <string name="jpw">日文</string>
+    <string name="korw">韩文</string>
+    <string name="fraw">法文</string>
+    <string name="ruw">俄文</string>   
+    <!-- hotapp -->
+    <string name="hotapp_wait">正在加載熱門應用</string>
+    <string name="hotapp_search_wait">搜索中……，請稍後</string>
+    <string name="hotapp_item_info">版本： %1$s\t大小：%2$s</string>
+    <string name="hotapp_top_head">大家都在搜索</string>
+    <string name="hotapp_top_hint_mid">\"下載</string>
+    <string name="hotapp_download_path_hint">下載中（%1$s）</string>
+    <string name="hotapp_download_success">恭喜您，%1$s下載成功！</string>
+    <string name="hotapp_download_fail">很抱歉，%1$s下載失敗！</string>
+    
+    <string name="btn_description">简 介</string>
+    <string name="btn_download">下 载</string>
+    <string name="install">安 装</string>
+    <string name="uninstall">卸 载</string>
+    <string name="app_install">安装</string>
+    <string name="response_search_hotapp">搜索到的結果如下：</string>
+    <string name="response_download_hotapp">正在全力爲您下載%1$s</string>
+    <string name="response_download_hotapp_sel">請選擇您需要的应用。</string>
+    <string name="response_hotapp_have_downloaded">檢測到下載目錄中已包含%1$s的安裝包。</string>
+    <string name="response_hotapp_downloading">正在全力爲您下載%1$s。</string>
+    <string name="response_hotapp_have_intalled">檢測到您的系統中已有最新版本的%1$s。</string>
+    <string name="response_hotapp_install_upgrade">檢測到系統中有較低版本的%1$s，確認升級請點擊下載按鈕。</string>
+    <string name="response_search_no_result">下載列表中沒有搜索到您要的應用。</string>
+    <string name="response_no_available_network">請檢查您的網絡連接是否正常。</string>
+    <string name="response_storage_unavailable">存儲卡不可用。</string>
+    <string name="response_storage_space_not_enough">沒有足夠的存儲空間。</string>
+    <string name="response_select_city">請選擇您需要查詢的城市。</string>
+    <string name="activity_top_app_title">熱門應用，點擊即可下載</string>  
+    <string name="response_call_contacts">對不起，我不知道您要打電話給誰。</string> 
+    <string name="response_send_contacts">對不起，我不知道您要發短信給誰。</string> 
+    
+    <!-- weather -->
+    <string name="voice_weather_today">今天 </string>
+    <string name="voice_weather_tomorrow">明天</string>
+    <string name="voice_weather_after_tomorrow">後天</string>
+    <string name="voice_weather_network">  網絡未鏈接!!! </string>
+    <string name="voice_weather_city"> 正在定位到當前城市，請稍後再試 </string>
+    <string name="voice_weather_hign_temp">最高溫度 </string>
+    <string name="voice_weather_low_temp">最低温度 </string>
+    <string name="voice_weather_temp">攝氏度 </string>
+
+    
+    <string name="response_select_muisc">请选择您想要播放的歌曲。</string>
+    <string name="response_music_empty">对不起，没有音乐可以播放。</string>
+
+    <string name="ques_hello_a">哈喽</string>
+    <string name="ques_father">你的爸爸是谁</string>
+    <string name="ques_silly">你是不是傻</string>
+    <string name="ques_redbag">你会发红包</string>
+    <string name="ques_hold">我操</string>
+    <string name="ques_drunk">我也是醉了</string>
+    <string name="ques_good">你真棒</string>
+    <string name="ques_haha">哈哈哈哈</string>
+    <string name="ques_easy">小翼</string>
+    <string name="ques_whoareyou">你是谁</string>
+    <string name="ques_work">你是做什么的</string>
+    <string name="ques_friend">有对象了</string>
+    <string name="ques_eat">你吃饭了</string>
+    <string name="ques_mother">你的妈妈是谁</string>
+    <string name="ques_boy">你是男生</string>
+    <string name="ques_girl">你是女生</string>
+    <string name="ques_bring">你无聊么</string>
+    <string name="ques_lovely">你真好</string>
+    <string name="ques_hi">你好呀</string>
+
+
+    <string name="answ_hello">你好，我是小翼，有什麽能幫助你的</string>
+    <string name="answ_marry">我還小呢</string>
+    <string name="answ_name">我叫小翼，天翼的翼</string>
+    <string name="answ_school">我已經6年級了</string>
+    
+    <string name="answ_old">6歲，這是我第6次更新</string>
+    <string name="answ_home">我的家在上海</string>
+    <string name="answ_weight">我很輕的，緩解你的負擔</string>
+    <string name="answ_father">我的爸爸是卓易科技</string>
+    
+    <string name="answ_silly">我很聰明，我要成為智能機器人</string>
+    <string name="answ_redbag">你可以去卓易市場看看哦</string>
+    <string name="answ_hold">不要說髒話啊，小翼可是文明人</string>
+    <string name="answ_drunk">醉了就不要喝那麼多酒，對身體不好</string>
+    
+    <string name="answ_good">你也很棒，謝謝</string>
+    <string name="answ_haha">你的心情真好</string>
+    <string name="answ_easy">幹啥啊，老闆</string>
+    <string name="answ_whoareyou">我是小翼，你的貼身小助理</string>
+
+    <string name="answ_work">我是做你的貼身小助理的</string>
+    <string name="answ_friend">當然沒有了，我可是你的小翼</string>
+    <string name="answ_eat">沒吃，你可以幫我充點電</string>
+    <string name="answ_mother">我的媽媽是卓易科技，他也是我的爸爸，不要問爲什麽</string>
+    <string name="answ_boyorgirl">我沒有性別</string>
+    
+    <string name="answ_bring">那小翼來陪你玩吧</string>
+    <string name="answ_lovely">我可是你的貼身小助理啊，當然好了</string>
+    <string name="answ_hi">你也好呀</string>
+    <string name="answ_please_search">小翼無法聽懂您說的話，請嘗試搜索一下</string>
+    <string name="ikonwn">我知道了</string>
+    <string name="please_search_result">查看搜索結果</string>
+    <string name="please_reviewmap">查看地圖</string>
+    
+    <string name="network_setting">網絡設置</string>     
+    <string name="network_no">當前無網絡，小翼只能幫你執行以下操作</string>
+    <string name="focus_height">的身高是</string>
+    <string name="focus_weight">的体重是</string>
+    <string name="focus_birthdate">的出生日期是</string>
+
+   <string name="asr_setting">设置</string>
+   <string name="asr_contactsa">连系人</string>
+   <string name="asr_contactsb">联系人</string>
+   <string name="asr_playmusic">播放音乐</string>
+   <string name="asr_playmusics">播放歌曲</string>
+   <string name="asr_nowtime">现在几点了</string>
+   <string name="ques_hello">你好</string>
+   <string name="ques_marry">你结婚了吗</string>
+   <string name="ques_name">你叫什么名字</string>
+   <string name="ques_school">你上学了吗</string>
+   <string name="ques_old">你多大了</string>
+   <string name="ques_home">你的家在哪</string>
+   <string name="ques_weight">你多重</string>
+
+   <string name="hint_contactsname">小明</string>
+
+   <string name="hotapp_savepath_hint">保存路徑:</string>
+   <string name="hotapp_downloading_hint">正在下載</string>
+
+  <string name="search_start">搜索</string>
+  <string name="searching_start">正在為您搜索</string>
+  <string name="app_intall">請您先查看該應用是否已安裝，如果沒有請您先下載</string>
+
+
+ <string name="settings_csilent_mode">切换静音模式</string>
+ <string name="settings_cnormal_mode">切换正常模式</string>
+ <string name="settings_cshake_mode">切换振动模式</string>
+ <string name="settings_osilent_mode">打开静音模式</string>
+ <string name="settings_onormal_mode">打开正常模式</string>
+ <string name="settings_oshake_mode">打开振动模式</string>
+ <string name="settings_on_wifi">打开wifi</string>
+ <string name="settings_off_wifi">关闭wifi</string>
+ <string name="settings_on_bluetooth">打开蓝牙</string>
+ <string name="settings_off_bluetooth">关闭蓝牙</string>
+ <string name="settings_networkset">网络设置</string>
+ <string name="response_setting_change">切換</string>
+ <string name="response_please_set">請您進行網絡設置</string>
+
+ <string name="app_xiaoyun">小云</string>
+ <string name="app_xiaokang">小康</string>
+ <string name="app_znyun">智能云</string>
+ <string name="app_zhjkyun">智慧健康云服务</string>
+ <string name="app_xygj">小翼管家</string>
+</resources>

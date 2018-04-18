@@ -1,0 +1,95 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/panel_framelayout"
+    >
+	    <!-- android:background="@drawable/main_bg" -->  
+	      <RelativeLayout
+	        android:layout_width="match_parent"
+	        android:layout_height="match_parent"
+	        >
+	
+	        <!--<ImageButton  -->
+	            <!--android:id="@+id/back_button"-->
+	            <!--android:layout_width="wrap_content"-->
+	            <!--android:layout_height="wrap_content"-->
+	            <!--android:paddingTop="@dimen/listview_padding_back_top"-->
+                <!--android:paddingBottom="@dimen/listview_padding_bottom"-->
+                <!--android:paddingLeft="@dimen/listview_padding"-->
+	            <!--android:src="@drawable/back"-->
+	            <!--android:background="@null"-->
+	            <!--android:clickable="true"-->
+	            <!--/>-->
+	        <!---->
+		    <!--<TextView-->
+		        <!--android:layout_width="wrap_content"-->
+		        <!--android:layout_height="wrap_content"-->
+                <!--android:paddingTop="@dimen/listview_padding"-->
+                <!--android:paddingBottom="@dimen/listview_padding"-->
+		        <!--android:id="@+id/mytitle"-->
+		        <!--android:layout_toRightOf="@+id/back_button"-->
+		        <!--android:textSize="@dimen/sr_item_title_text_size"-->
+		        <!--android:paddingRight="@dimen/listview_padding"-->
+                <!--android:paddingLeft="@dimen/listview_padding"-->
+		        <!--/>-->
+	        <ImageView
+	            android:id="@+id/line_top"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:background="@drawable/divider"
+	            />
+	        
+	        <ListView
+	            android:id="@+id/talk_list"
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            android:layout_below="@+id/line_top"
+	            android:layout_above="@+id/start_ctrl"
+	            android:listSelector="@android:color/transparent"
+	            android:divider="@null"
+	            android:paddingLeft="@dimen/listview_padding"
+	            android:paddingRight="@dimen/listview_padding"
+	            android:layout_marginTop="@dimen/prompt_item_padding_left"
+	            android:scrollbars="none"
+	            />
+	
+	        <RelativeLayout
+	            android:id="@+id/start_ctrl"
+	            android:layout_width="match_parent"
+	            android:layout_height="@dimen/recording_bottom_height"
+	            android:gravity="center"
+	            android:layout_alignParentBottom="true"
+	            android:background="@null" >
+	            
+	               <ImageView 
+	           	     android:id="@+id/start_rorate"
+	                 android:layout_width="@dimen/recording_button_heightandwidget"
+	                 android:layout_height="@dimen/recording_button_heightandwidget"
+	                 android:layout_centerInParent="true"
+	                 android:src="@drawable/ic_start_asr"
+	                 android:visibility="gone"/>
+	                
+	            
+	               <ImageView
+	                android:id="@+id/btn_start"
+	                android:layout_width="@dimen/recording_button_heightandwidget"
+	                android:layout_height="@dimen/recording_button_heightandwidget"
+	                android:layout_centerInParent="true"
+	                android:src="@drawable/btn_start_sr" />  
+	                
+	               
+	             
+	    
+	           	
+	            <com.freeme.view.ASRWorkingView
+	                android:id="@+id/ic_sr_working"
+	                android:layout_width="@dimen/ASRWorkingView_heightandwidget"
+	                android:layout_height="@dimen/ASRWorkingView_heightandwidget"
+	                android:layout_centerInParent="true"
+	                android:gravity="center"
+	                android:visibility="gone" />
+	        </RelativeLayout>
+	
+	
+	    </RelativeLayout>
+</FrameLayout>

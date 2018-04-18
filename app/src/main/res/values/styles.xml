@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <style name="TalkItemStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingTop">@dimen/talk_item_gap</item>
+        <item name="android:paddingBottom">@dimen/talk_item_gap</item>
+        <item name="android:paddingLeft">@dimen/talk_item_gap</item>
+        <item name="android:paddingRight">@dimen/talk_item_gap</item>
+    </style>
+    <style name="speechText">
+        <item name="android:textColor">@color/sr_item_title_color</item>
+        <item name="android:textSize">@dimen/sr_item_title_text_size</item>
+        <item name="android:paddingTop">@dimen/response_item_text_padding</item>
+        <item name="android:paddingBottom">@dimen/response_item_text_padding</item>
+        <item name="android:gravity">center</item>
+    </style>
+    
+     <style name="speechTextR">
+        <item name="android:textColor">@color/sr_item_hint_color</item>
+        <item name="android:textSize">@dimen/sr_item_title_text_size</item>
+        <item name="android:paddingTop">@dimen/response_item_text_padding</item>
+        <item name="android:paddingBottom">@dimen/response_item_text_padding</item>
+
+    </style>
+    
+    <style name="buttonText">
+        <item name="android:textColor">@color/btn_text_color</item>
+        <item name="android:textSize">@dimen/sr_item_title_text_size</item>
+        <item name="android:minHeight">@dimen/btn_min_height</item>
+        <item name="android:gravity">center</item>
+    </style>
+    <style name="PromptText">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">0dip</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:paddingLeft">@dimen/prompt_item_padding_left</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:gravity">center_vertical</item>
+    </style>
+    <style name="SplitLineStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">1px</item>
+        <item name="android:layout_marginLeft">3dip</item>
+        <item name="android:layout_marginRight">3dip</item>
+        <item name="android:src">@color/split_line_color</item>
+        <item name="android:visibility">gone</item>
+    </style>
+
+
+    <style name="Theme.FreemeVoiceAssistant" parent="@android:style/Theme.Holo.Light.DarkActionBar">
+        <item name="android:actionBarStyle">@style/ActionBarStyle</item>
+        <item name="android:windowBackground">@drawable/main_bg</item>
+        <item name="android:actionOverflowButtonStyle">@style/music_actionbutton_Overflow</item>
+        <item name="android:homeAsUpIndicator">@drawable/ic_ab_back_material</item>
+        <item name="android:actionModeCloseDrawable">@drawable/ic_ab_back_material</item>
+    </style>
+    <style name="ActionBarStyle" parent="android:Widget.Holo.ActionBar.Solid">
+        <item name="android:titleTextStyle">@style/ActionBarTitle</item>
+        <item name="android:background">@android:color/transparent</item>
+    </style>
+    <style name="ActionBarTitle" parent="@android:style/TextAppearance.Holo.Widget.ActionBar.Title">
+        <item name="android:ellipsize">marquee</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:textSize">@dimen/sr_item_title_text_size</item>
+        <item name="android:textColor">@color/sr_item_title_color</item>
+    </style>
+
+
+    <style name="music_actionbutton_Overflow">
+        <item name="android:src">@drawable/ic_menu_overflow</item>
+    </style>
+
+</resources>

@@ -1,0 +1,61 @@
+apply plugin: 'com.android.application'
+
+
+def UPDATESELF_REQUEST_URL_NATIVE = "http://update-market.tt286.com:2520"
+def UPDATESELF_REQUEST_URL_OVERSEA = "http://update-osmarket.dd351.com:2520"
+def UPDATESELF_REQUEST_URL_TEST = "http://101.95.97.178:2520"
+
+def MTTA_OVERSEA = [UPDATESELF_UPDATEURL_VALUE: UPDATESELF_REQUEST_URL_OVERSEA]
+def META_NATIVE = [UPDATESELF_UPDATEURL_VALUE: UPDATESELF_REQUEST_URL_NATIVE]
+def META_TEST = [UPDATESELF_UPDATEURL_VALUE: UPDATESELF_REQUEST_URL_TEST]
+
+android {
+    compileSdkVersion 23
+    buildToolsVersion '23.0.3'
+
+
+
+
+    signingConfigs {
+        release {
+            storeFile file("droiva.keystore")
+            storePassword "freemeva"
+            keyAlias "droiva.keystore"
+            keyPassword "freemeva"
+        }
+    }
+    defaultConfig {
+        applicationId "com.freeme.voiceassistant"
+        minSdkVersion 15
+        targetSdkVersion 23
+        versionCode 9
+        versionName "9.0.1"
+
+        manifestPlaceholders = META_NATIVE
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+
+        debug {
+            minifyEnabled false
+            signingConfig signingConfigs.release
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+
+
+
+dependencies {
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+    testCompile 'junit:junit:4.12'
+    compile 'com.android.support:appcompat-v7:23.+'
+    compile 'org.jbundle.util.osgi.wrapped:org.jbundle.util.osgi.wrapped.org.apache.http.client:4.1.2'
+    compile 'com.android.support:support-v4:23.+'
+    //compile project(':freemeabout')
+    //compile 'com.freeme.multimedia:freemeupdate:1.0.7@aar'
+}

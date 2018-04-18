@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="sr_item_title_color">#FFFFFF</color>
+    <color name="sr_item_hint_color">#CCFFFFFF</color>
+    <color name="btn_text_color">#FFFFFF</color>
+    <color name="split_line_color">#B2B2B2</color>
+    <color name="hint_text_color">#FFFFFF</color>
+    <color name="transparent">#9000</color>
+    <color name="blue">#0674BA</color>
+    <color name="green">#0c9e58</color>
+    <color name="lightgrep">#090b29</color>
+
+</resources>

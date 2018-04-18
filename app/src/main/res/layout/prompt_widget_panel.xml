@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/TalkItemStyle" >
+
+    <LinearLayout
+        android:id="@+id/prompt_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@null"
+        android:orientation="vertical"
+        android:padding="0dp" >
+        
+        <TextView
+            style="@style/PromptText"
+            android:minHeight="@dimen/prompt_item_min_height"
+            android:text="@string/prompt_item_head"
+            android:textSize="@dimen/sr_item_title_text_size"
+            android:textColor="@color/sr_item_hint_color"
+            android:background="@null" />
+    </LinearLayout>
+
+</FrameLayout>

@@ -1,0 +1,44 @@
+<resources>
+
+    <dimen name="talk_item_gap">0.5dip</dimen>
+    <dimen name="listview_padding">24dip</dimen>
+    <dimen name="listview_padding_back_top">26dip</dimen>
+    <dimen name="listview_padding_bottom">22dip</dimen>
+    <dimen name="listview_margintop">30dip</dimen>
+    <dimen name="recording_bottom_height">135dp</dimen>
+    <dimen name="recording_button_heightandwidget">66dp</dimen>
+    <dimen name="ASRWorkingView_heightandwidget">93dp</dimen>
+    <dimen name="response_item_text_padding">10dip</dimen>
+    <dimen name="sr_item_title_text_size">15sp</dimen>
+    <dimen name="btn_min_height">30dip</dimen>
+    <dimen name="prompt_item_padding_left">12dip</dimen>
+    <dimen name="sr_working_anim_radius">35dp</dimen>
+    <dimen name="sr_item_hint_text_size">10sp</dimen>
+    <dimen name="prompt_item_hint_text_size">14sp</dimen>
+    <dimen name="prompt_item_min_height">40dip</dimen>
+    <dimen name="response_item_gap_h">5dip</dimen>
+    <dimen name="icon_widthandheight">36dp</dimen>
+    <dimen name="contact_photo_width">65dip</dimen>
+    <dimen name="contact_photo_height">65dip</dimen>
+    <dimen name="contact_photo_margin_left">5dip</dimen>
+    <dimen name="contact_photo_margin_right">20dip</dimen>
+    <dimen name="contact_photo_margin_top">6dip</dimen>
+    <dimen name="contact_photo_margin_bottom">6dip</dimen>
+    <dimen name="calling_cancel_margin_top">10dip</dimen>
+    <dimen name="contact_message_item_gap">8dip</dimen>
+    <dimen name="message_content_height">80dip</dimen>
+    <dimen name="contact_voice_input_margin_right">5dip</dimen>
+    <dimen name="button_height">40dip</dimen>   
+    <dimen name="hotapp_icon_width">36dip</dimen>
+    <dimen name="hotapp_icon_height">36dip</dimen>
+    <dimen name="download_progress_bar_margin_b">4dip</dimen>
+    <dimen name="download_progress_bar_margin_right">7dip</dimen>
+    <dimen name="music_list_item_min_height">50dip</dimen>
+    <dimen name="music_list_item_margin_left">12dip</dimen>
+    <dimen name="ic_default_album_width">60dp</dimen>
+    <dimen name="ic_default_album_height">60dp</dimen>
+    <dimen name="music_album_ic_padding">6dip</dimen>
+    <dimen name="music_artist_margin_b">8dip</dimen>
+    <dimen name="music_SeekBar_top">7dip</dimen>
+    <dimen name="responseminheight">65dip</dimen>
+</resources>
